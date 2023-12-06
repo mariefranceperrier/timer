@@ -7,7 +7,7 @@ delay.forEach((time) => {
     
     setTimeout(() => {
       process.stdout.write('.');
-    }, parseInt(time) * 1000);
+    }, parsedTime * 1000);
   }
 });
 
